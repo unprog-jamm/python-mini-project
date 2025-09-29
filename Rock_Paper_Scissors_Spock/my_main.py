@@ -11,7 +11,7 @@ Project # 1
 
 1st player will be asked to input either rock, paper or scissors
 2nd player will be the computer and will randomly choose either rock, paper or scissors
-(or you can have 2 human players)
+(or you can have 2 human players, but for another time)
 
 3 possible outcomes,
 1. Player 1 wins
@@ -108,7 +108,7 @@ while True:
             score += 1
             comp_score += 1
 
-    print(f"Your score is: {score}\n")
+    print(f"Your score is: {score}")
     print(f"Computron score is: {comp_score}\n")
     round += 1
 
@@ -123,7 +123,4 @@ while True:
             print("It's a tie!\n")
         break
 
-    input("Press Enter to continue... or type 'quit' to exit the game\n")
-    
-
-    
+    input("Press Enter to continue...\n")
